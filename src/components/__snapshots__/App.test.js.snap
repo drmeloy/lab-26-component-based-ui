@@ -1,7 +1,92 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App component renders App 1`] = `
-<h1>
-  Hello World
-</h1>
+<Fragment>
+  <Header />
+  <div
+    className="characterSheet"
+  >
+    <Character
+      gender="Female"
+      id="id: 38"
+      image="/path/image"
+      lastLocation="Earth (C-137)"
+      name="Beth Smith"
+      origin="Earth (C-137)"
+      species="Human"
+      status="Alive"
+    />
+    <Character
+      gender="Male"
+      id="id: 84"
+      image="/path/image"
+      lastLocation="Hideout Planet"
+      name="Cult Leader Morty"
+      origin="Unknown"
+      species="Human"
+      status="Alive"
+    />
+    <Character
+      gender="Male"
+      id="id: 162"
+      image="/path/image"
+      lastLocation="Alphabetrium"
+      name="Ice-T"
+      origin="Alphabetrium"
+      species="Alien, Alphabetrian"
+      status="Alive"
+    />
+    <Character
+      gender="Male"
+      id="id: 213"
+      image="/path/image"
+      lastLocation="Alphabetrian"
+      name="Magnesium-J"
+      origin="Alphabetrian"
+      species="Alien, Alphabetrian"
+      status="Alive"
+    />
+    <Character
+      gender="Male"
+      id="id: 328"
+      image="/path/image"
+      lastLocation="Citadel of Ricks"
+      name="Slow Rick"
+      origin="Unknown (C-137)"
+      species="Human"
+      status="Alive"
+    />
+    <Character
+      gender="Male"
+      id="id: 392"
+      image="/path/image"
+      lastLocation="Citadel of Ricks"
+      name="Bearded Morty"
+      origin="Unknown"
+      species="Human"
+      status="Alive"
+    />
+    <Character
+      gender="Male"
+      id="id: 404"
+      image="/path/image"
+      lastLocation="Earth (Phone Dimension)"
+      name="Michael Jackson"
+      origin="Earth (Phone Dimension)"
+      species="Humanoid, Phone-Person"
+      status="Alive"
+    />
+    <Character
+      gender="Female"
+      id="id: 426"
+      image="/path/image"
+      lastLocation="Greasy Grandma World"
+      name="Greasy Grandma"
+      origin="Greasy Grandma World"
+      species="Human, Grandma"
+      status="Alive"
+    />
+  </div>
+  <Footer />
+</Fragment>
 `;

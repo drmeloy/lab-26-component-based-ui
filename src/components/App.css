@@ -1,0 +1,9 @@
+.characterSheet {
+  width: 100%;
+  display: grid;
+  padding-top: 25px;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 390px 390px 390px 390px;
+  background: #202329;
+  justify-content: center;
+}
